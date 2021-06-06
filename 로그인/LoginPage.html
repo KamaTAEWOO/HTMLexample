@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>로그인창</title>
+    <style>
+      body {padding: 0px; margin: 0px;}
+      /*중앙에 배치하기 위해 사용*/
+      #divPosition{
+        background- color: #00D8FF;
+        border: 1px solid #5D5D5D;
+        position: absolute;
+        height: all;
+        width: all;
+        top: 30%;
+        left: 45%;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body style="background-image: url(login_back.jpeg);background-repeat: no-repeat;background-size: cover; background-attachment: fixed; background-position: center center;">
+    <div id="divPosition">
+    <h1 style="color: white;text-align: center; ">로그인</h1>
+    <form>
+      <input type="text" value="id"style="width:165px;height:25px;font-size:15px;"><br>
+      <input type="password" value="1234"style="width:165px;height:25px;font-size:15px;margin-bottom: 7px;">
+    </form>
+    <input type="button" name = "Register" value = "로그인" onclick = "location.href='Hello.html'"; style="float: left;width: 80px;height: 25px;" />
+    <input type="button" name = "Register" value = "회원가입" onclick = "location.href='SignUp.html'"; style="float: right; width: 80px;height: 25px;" />
+    </div>
+
+  </body>
+</html>

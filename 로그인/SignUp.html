@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset ="utf-8" />
+  <title>회원가입</title>
+  <style>
+      body {padding: 0px; margin: 0px;}
+      /*중앙에 배치하기 위해 사용*/
+      #divPosition{
+        background- color: #00D8FF;
+        border: 1px solid #5D5D5D;
+        position: absolute;
+        height: all;
+        width: all;
+        top: 30%;
+        left: 30%;
+        padding: 5px;
+      }
+    </style>
+</head>
+  <body style="background-image: url(login_back.jpeg);background-repeat: no-repeat;background-size: cover; background-attachment: fixed; background-position: center center;">
+    <div id="divPosition">
+    <form>
+      <h1 style="color: white; margin-left: 60px">회원가입 창</h1>
+      <table border="1">
+        <label style="color: white";>*아이디 : <input type="text" name="userid" style="margin-left: 42px ;" /></label>
+        <br /><p></p>
+        <label style="color: white";>*비밀번호 : <input type="text" name="userpw" style="margin-left: 28px ;"/></label>
+        <br /><p></p>
+        <label style="color: white";>*비밀번호 확인: <input type="text" name="userpw_a" /></label>
+        <label style="color: white";>   비밀번호는 6자리 이상이여야 하며 영문과 숫자를 반드시 포함해야 합니다.</label>
+        <br /><p></p>
+        <label style="color: white";>*이메일 주소 :  <input type="text" name="useremail" style="margin-left: 10px ;"/></label>
+        <br /><p></p>
+        <label style="color: white";>*이름 : <input type="text" name="username" style="margin-left: 56px ;"/></label>
+        <br /><p></p>
+        <label style="color: white";>*닉네임 : <input type="text" name="username" style="margin-left: 42px ;"/></label>
+        <br /><p></p>
+        <input type="button" name="Register" value="완료" onclick = "location.href='LoginPage.html'"; style="width: 100px; height: 25px; margin-left: 104px" ; />
+      </table>
+    </form>
+  </div>
+  </body>
+</html>
+ 
